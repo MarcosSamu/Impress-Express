@@ -1,12 +1,10 @@
 # Impress-Express
 
 Sistema de Controle de Impressão
-N° |          Programadores
----|----------------------------------
-01 | André Henrique Pereira Martins
-02 | Lucas Lima Souza
-03 | Ciro Igor Barros de Lima
-04 | Gabriel Assuero Ribero de Sousa
-05 | Marcos Samuel Cornelio Barros
-06 | Nicholas Scampini
 
+Alimentos | Preço
+--------- | ------
+Arroz     | R$ 10
+Feijão    | R$ 8
+Batata    | R$ 7
+Macarrão  | R$ 8
