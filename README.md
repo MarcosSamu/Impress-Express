@@ -1,6 +1,6 @@
 # Impress-Express
 
-Sistema de Controle de Impressão:
+Sistema de Controle de Impressão -> PHP
 --------------------------------------
  N° | Programadores
 --- | --------------------------------
@@ -10,3 +10,4 @@ Sistema de Controle de Impressão:
 04  | Marcos Samuel Cornelio Barros
 05  | Ciro Igor Barros de Lima
 06  | Nicholas Scampini
+
