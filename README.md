@@ -1,11 +1,12 @@
 # Impress-Express
 
 Sistema de Controle de Impressão
-
-+ André Henrique Pereira Martins
-+ Lucas Lima Souza
-+ Ciro Igor Barros de Lima
-+ Gabriel Assuero Ribero de Sousa
-+ Marcos Samuel Cornelio Barros
-+ Nicholas Scampini
+N° |          Programadores
+---|----------------------------------
+01 | André Henrique Pereira Martins
+02 | Lucas Lima Souza
+03 | Ciro Igor Barros de Lima
+04 | Gabriel Assuero Ribero de Sousa
+05 | Marcos Samuel Cornelio Barros
+06 | Nicholas Scampini
 
