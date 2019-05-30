@@ -2,7 +2,7 @@
 
 Sistema de Controle de Impressão -> PHP
 --------------------------------------
- N° | Programadores
+ N° | Nome
 --- | --------------------------------
 01  | André Henrique Pereira Martins
 02  | Lucas Lima Souza
