@@ -4,17 +4,17 @@
 
     $conn = getConnection();
     
-    $sql = "INSERT INTO usuario (nome, email, telefone,password) VALUES (:nome,:email,:telefone,:senha)";
+    $sql = "INSERT INTO usuario (nome, telefone, email, senha) VALUES (:nome,:telefone,:email,:senha)";
 
     $nome = $_REQUEST['nome'];
+    $telefone = $_REQUEST['telefone'];
 	$email =  $_REQUEST['email'];
-	$telefone = $_REQUEST['telefone'];
 	$senha =  $_REQUEST['senha'];
 
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':nome', $nome);
-    $stmt->bindParam(':email', $email);
     $stmt->bindParam(':telefone', $telefone);
+    $stmt->bindParam(':email', $email);
     $stmt->bindParam(':senha', $senha);
 
     if($stmt->execute()){

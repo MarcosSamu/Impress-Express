@@ -5,7 +5,7 @@
  * @return \PDO
  */
 function getConnection(){
-	$dsn = 'mysql:host=localhost;dbname=php_login_database';
+	$dsn = 'mysql:host=localhost;dbname=express';
 	$user = 'root';
 	$pass = '';
 

@@ -15,42 +15,45 @@
 </head>
 <body>
 
-<div class="ui middle aligned center aligned grid">
+<div class="ui middle aligned center aligned grid" >
   <div class="column">
     <h2 class="ui teal image header">
       <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -38px;" class="image">
       <div class="content">
-        Xpress
+        <h1 style="color:white;">Xpress</h1>
       </div>
-    </h2>
-    <form class="ui large form" post="">
+    <!-- Lucas esse form nao sei se e pra enviar isso entao botei envio igual do login -->
+    <form class="ui large form" method="POST" action="login-php/processaFrom.php">
       <div class="ui stacked segment">
         <div class="field">
-          <label>Email</label>
-          <div class="ui left icon input">
-            <i class="wheelchair icon"></i>
-            <input type="text" name="email" placeholder="E-mail address">
-          </div>
-        </div>
         <div class="field">
-          <label>Senha</label>
-          <div class="ui left icon input">
-            <i class="lock icon"></i>
-            <input type="password" name="password" id="sen1" placeholder="Sua senha">            
-          </div>
-        </div>
-        <div class="field">
-          <label>Repita a senha</label>
-          <div class="ui left icon input">
-            <i class="lock icon"></i>
-            <input type="password" name="password" id="sen1" placeholder="Sua senha">            
-          </div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
         </div>
          <div class="field">
-            <label>Usuário</label>
-            <input type="text" name="usuario" placeholder="Usuário" required="">
+          <label for="telefone">Telefone:</label>     
+          <input id="telefone" name="telefone"  type="tel" required>
         </div>
-        <div class="ui fluid large teal submit button" onclick="validation()">Cadastrar</div>
+          <label  for="email">Email</label>
+          <div class="ui left icon input">
+            <i class="wheelchair icon"></i>
+            <input type="text" id="email" name="email" placeholder="Seu email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="senha">Senha</label>
+          <div class="ui left icon input">
+            <i class="lock icon"></i>
+            <input type="password" id="senha" name="senha"  placeholder="Sua senha" required>   
+          </div>
+        </div>  
+        <div class="ui fluid large teal submit button" data-tooltip="Clique para cadastrar" data-position="right" >Cadastrar</div></br>
+         <div class="field">
+        <div class="ui checkbox">
+          <input type="checkbox" name="chec" id="chec" tabindex="0" class="hidden">
+          <label>Eu concordo com os Termos e Condições</label>
+        </div>
+      </div>
       </div>
 
       <div class="ui error message"></div>
@@ -58,7 +61,7 @@
     </form>
 
     <div class="ui message">
-      Já tem conta ? <a href="TopicosSpecial.html">Login</a>
+      Já tem conta ? <a href="TopicosSpecial.php">Login</a>
     </div>
   </div>
 </div>

@@ -20,35 +20,36 @@
     <h2 class="ui teal image header">
       <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -38px;" class="image">
       <div class="content">
-        Xpress
+        <h1 style="color:white;">Xpress</h1>
       </div>
     </h2>
-    <form class="ui large form" post="">
-      <div class="ui stacked segment">
+    <form class="ui large form" method="POST" action="login-php/processaFrom.php">
+      <div class="ui stacked segment ">
         <div class="field">
-          <label>Seu email</label>
+          <label for="email">Seu email</label>
           <div class="ui left icon input">
             <i class="wheelchair icon"></i>
-            <input type="text" name="email" placeholder="E-mail address">
+            <input type="text" id="email" name="email" placeholder="Sua senha" >
           </div>
         </div>
         <div class="field">
           <label>Sua senha</label>
           <div class="ui left icon input">
             <i class="lock icon"></i>
-            <input type="password" name="password" placeholder="Password">
+            <input type="password" id="senha" name="senha" placeholder="Seu Email" >
           </div>
         </div>
-        <div class="ui fluid large teal submit button">Avançar</div>
+        <div class="ui large buttons">
+          <button class="ui button active ui  large teal submit button">Avançar</button>
+          <div class="or" ></div>
+          <button class="ui button"><a href="cadastramento.php" style="color:#009c95;">Cadastrar</a></button>
+        </div>
       </div>
 
       <div class="ui error message"></div>
 
     </form>
 
-    <div class="ui message">
-     Não tem conta ? <a href="cadastramento.php>">Cadastrar</a>
-    </div>
   </div>
 </div>
 </body>
