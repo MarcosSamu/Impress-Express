@@ -21,7 +21,7 @@
       <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -6px;width: 90px" class="image">
       <h1 style="color:white;display: inline;margin-left: -24px;font-size: 30px;">Xpress</h1>
     </h2>
-    <form class="ui large form" method="POST" action="login-php/processaFrom.php">
+    <form class="ui large form" method="POST" action="login-php/verificacao-login.php">
       <div class="ui stacked segment ">
         <div class="field">
           <label for="email">Seu email</label>
