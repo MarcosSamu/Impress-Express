@@ -8,10 +8,8 @@
 
   <title>Login</title>
   <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/reset.css">
-  <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/semantic.css">
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/estilo.css">
-  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/all.css">
 </head>
 <body>
 
@@ -26,7 +24,7 @@
         <div class="field">
           <label for="email">Seu email</label>
           <div class="ui left icon input">
-            <i class="wheelchair icon"></i>
+            <i class="user icon"></i>
             <input type="text" id="email" name="email" placeholder="Sua senha" >
           </div>
         </div>
@@ -39,7 +37,7 @@
         </div>
         <div class="ui large buttons">
           <button class="ui button active ui  large teal submit button">Avançar</button>
-          <div class="or" ></div>
+          <div class="or " ></div>
           <button class="ui button"><a href="cadastramento.php" style="color:#009c95;">Cadastrar</a></button>
         </div>
       </div>

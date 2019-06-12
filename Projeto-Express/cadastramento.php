@@ -8,10 +8,9 @@
 
   <title>Login</title>
   <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/reset.css">
-  <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/semantic.css">
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="TopicosSpecial_arquivos/estilo.css">
-  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/all.css">
+    <link rel='stylesheet' type="text/css" href="TopicosSpecial_arquivos/icon.min">
 </head>
 <body>
 
@@ -21,21 +20,27 @@
       <img src="TopicosSpecial_arquivos/logo.png"  style="margin-right: -38px;display: inline;" class="image">
       <div class="content">
         <h1 style="color:white;display: inline !important;">Xpress</h1>
-      </div>
+      </div></h2>
     <form class="ui large form" method="POST" action="login-php/processaFrom.php">
       <div class="ui stacked segment">
         <div class="field">
         <div class="field">
             <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
         </div>
          <div class="field">
-          <label for="telefone">Telefone:</label>     
-          <input id="telefone" name="telefone"  type="tel" required>
+          <label for="telefone">Telefone</label>     
+          <div class="ui left icon input">
+            <i class="phone icon"></i>
+           <input id="telefone" name="telefone"  type="tel" required placeholder="Seu telefone">
+          </div>
         </div>
           <label  for="email">Email</label>
           <div class="ui left icon input">
-            <i class="wheelchair icon"></i>
+            <i class=" envelope icon"></i>
             <input type="text" id="email" name="email" placeholder="Seu email" required>
           </div>
         </div>
@@ -58,9 +63,8 @@
       <div class="ui error message"></div>
 
     </form>
-
-    <div class="ui message">
-      Já tem conta ? <a href="TopicosSpecial.php">Login</a>
+    <div class="ui  message">
+      Já tem conta ? <a href="TopicosSpecial.php" style="padding: 0px;font-size: 20px;">Login</a>
     </div>
   </div>
 </div>
