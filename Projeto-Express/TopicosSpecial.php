@@ -18,10 +18,8 @@
 <div class="ui middle aligned center aligned grid">
   <div class="column">
     <h2 class="ui teal image header">
-      <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -38px;" class="image">
-      <div class="content">
-        <h1 style="color:white;">Xpress</h1>
-      </div>
+      <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -6px;width: 90px" class="image">
+      <h1 style="color:white;display: inline;margin-left: -24px;font-size: 30px;">Xpress</h1>
     </h2>
     <form class="ui large form" method="POST" action="login-php/processaFrom.php">
       <div class="ui stacked segment ">

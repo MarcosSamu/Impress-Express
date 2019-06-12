@@ -18,9 +18,9 @@
 <div class="ui middle aligned center aligned grid" >
   <div class="column">
     <h2 class="ui teal image header">
-      <img src="TopicosSpecial_arquivos/logo.png" style="margin-right: -38px;" class="image">
+      <img src="TopicosSpecial_arquivos/logo.png"  style="margin-right: -38px;display: inline;" class="image">
       <div class="content">
-        <h1 style="color:white;">Xpress</h1>
+        <h1 style="color:white;display: inline !important;">Xpress</h1>
       </div>
     <!-- Lucas esse form nao sei se e pra enviar isso entao botei envio igual do login -->
     <form class="ui large form" method="POST" action="login-php/processaFrom.php">
